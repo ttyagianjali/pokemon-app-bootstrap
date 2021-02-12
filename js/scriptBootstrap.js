@@ -48,6 +48,7 @@ let pokemonRepository = (function () {
   function addListItem(pokemon) {
     let pokemonList = $('.pokemon-list');
     let listItem = $('<li></li>');
+    listItem.addClass('list-group-item', '');
     let button = $('<button>' + pokemon.name + '</button>');
     button.addClass('btn', 'btn-primary');
     button.attr('data-toggle', 'modal');

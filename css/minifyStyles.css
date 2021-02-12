@@ -3,16 +3,14 @@
   color: #fff;
   padding: 8px 40px 8px 16px;
 }
-
 .btn .btn-primary {
   border: none;
-  background-color: blanchedalmond;
-  color: black;
+  background-color: #ffebcd;
+  color: #000;
 }
-
 .list-custom {
-  background-color: white;
-  color: white;
+  background-color: #fff;
+  color: #fff;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -30,23 +28,20 @@
   border-bottom: 2px solid #eee;
   width: 100%;
   border-radius: 0;
-  color: black;
+  color: #000;
 }
 .list-group-custom .list-group-item:hover {
-  color: white;
+  color: #fff;
   background: #888;
   border-bottom: 2px solid #eee;
 }
 .list-group-custom .list-group-item:focus {
-  color: white;
+  color: #fff;
   background: #888;
 }
-
-
 #modal-pokemon {
   display: none;
 }
-
 #modal-pokemon {
   position: fixed;
   padding: 20px;
@@ -56,31 +51,21 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
-
-  /* to show it above other content */
   z-index: 999;
-
-  /* to allow scrolling if the screen is not high enough*/
   overflow: auto;
-
-  /* this is used to center the modal */
   text-align: center;
 }
-
 #modal-pokemon.is-visible {
-  /* CSS for modal container - add your own desired CSS styles here */
   display: block;
 }
-
 .is-visible .modal {
   display: block;
 }
-
 .modal-close {
   float: right;
   -webkit-appearance: none;
   border: 0;
-  background: none;
+  background: 0 0;
   color: #777;
   text-decoration: underline;
 }
